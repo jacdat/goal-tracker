@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(81, 81, 81, 1.00);
+}
+
+.logo {
+    color: rgba(255, 235, 84, 1.00);
+}
