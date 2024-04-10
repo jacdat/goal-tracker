@@ -18,6 +18,12 @@ body {
     background-color: var(--body-background);
 }
 
+.header,
+.intro,
+.main {
+    padding: 20px 125px;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -62,15 +68,18 @@ svg.nav-arrow {
 
 .intro {
     display: flex;
-    gap: 60px;
+    gap: 20px;
     background-color: var(--section-background);
-    padding: 50px 125px;
+    padding-bottom: 20px;
+    padding-top: 0px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .info .heading {
@@ -86,4 +95,19 @@ svg.nav-arrow {
 .info .text {
     color: var(--light-text);
     font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.main .box {
+    border: 1px solid pink;
+    background-color: var(--section-background);
+    min-height: 200px;
+    width: 350px;
+    padding: 20px;
 }
