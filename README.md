@@ -3,3 +3,7 @@
 ## To Do:
 
 - [ ] Fix nav button svg placement. Replace?
+
+
+## Attribution:
+https://www.svgrepo.com/collection/jtb-variety-thin-icons/
