@@ -11,6 +11,7 @@
     --light-text: rgba(216, 222, 233, 1.00);
     --blue-text: rgba(129, 161, 193, 1.00);
     --fancy-font: 'Satisfy', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --icon-color: rgba(94, 129, 172, 1.00);
 }
 
 body {
@@ -112,8 +113,29 @@ svg.nav-arrow {
 .main .box {
     min-height: 200px;
     width: 400px;
-    padding: 20px;
+    margin: 20px;
     gap: 20px;
     border: 1px solid var(--shadow);
     box-shadow: 1.95px 1.95px 2.6px var(--shadow);
+}
+
+svg.box-icon {
+    color: var(--icon-color);
+    height: 50px;
+    width: 50px;
+    stroke-width: 2px;
+}
+
+.main .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px 12px;
+    background-color: var(--shadow);
+    font-family: Satisfy, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: lowercase;
+    color: var(--icon-color);
 }
